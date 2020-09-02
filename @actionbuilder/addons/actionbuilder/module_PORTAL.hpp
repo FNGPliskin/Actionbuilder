@@ -26,7 +26,7 @@ class RHNET_ab_modulePORTAL_F: Module_F {
 			displayName = "Positioning";
 			tooltip = "Units can spawn to editor placed positions or the position of the portal module.";
 			typeName = "STRING";
-			defaultValue = """NONE""";
+			defaultValue = """PORTAL""";
 			class Values {
 				class PORTAL_ORIGINALPOSITION {
 					name = "Original unit position";
