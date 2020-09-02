@@ -97,6 +97,39 @@ class RHNET_ab_moduleWP_F: Module_F {
 					name = "ACTION: REMOVE GROUP";
 					value = "REMOVE";
 				};
+				class WP_CAMP {
+					name = "ACTION: CAMP";
+					value = "CAMP";
+				};
+				class WP_FORCE_CAMP {
+					name = "ACTION: FORCE CAMP";
+					value = "FCAMP";
+				};
+				class WP_CQB {
+					name = "ACTION: CQB (EXPIRIMENTAL)";
+					value = "CQB";
+				};
+				class WP_PATROL {
+					name = "ACTION: PATROL";
+					value = "PATROL";
+				};
+				class WP_RUSH {
+					name = "ACTION: RUSH";
+					value = "RUSH";
+				};
+				class WP_HUNT {
+					name = "ACTION: HUNT";
+					value = "HUNT";
+				};
+				class WP_CREEP {
+					name = "ACTION: CREEP";
+					value = "CREEP";
+				};
+				class WP_REGISTER_ARTILLERY {
+					name = "ACTION: REGISTER ARTILLERY";
+					value = "ARTREG";
+				};
+
 			};
 		};
 
