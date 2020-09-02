@@ -244,6 +244,17 @@ call {
 	if (_wpType == "UNLOAD") exitWith {[_group, false] call Actionbuilder_fnc_unloadVehicles; _wpPos = position leader _group};
 	if (_wpType == "FORCE") exitWith {[_group, true] call Actionbuilder_fnc_loadTransport; _wpPos = position leader _group};
 	if (_wpType == "GETOUT") exitWith {[_group, true] call Actionbuilder_fnc_unloadVehicles; _wpPos = position leader _group};
+	if (_wpType == "CAMP") exitWith {[_group, _wpPos,,,false,true] call lambs_wp_fnc_taskCamp;};
+	if (_wpType == "FCAMP") exitWith {[_group, _wpPos,,,true,true] call lambs_wp_fnc_taskCamp;};
+	if (_wpType == "CQB") exitWith {[_group, _wpPos] call lambs_wp_fnc_taskCQB;};
+	if (_wpType == "PATROL") exitWith {[_group, _wpPos] call lambs_wp_fnc_taskPatrol;};
+	if (_wpType == "RUSH") exitWith {[_group] call lambs_wp_fnc_taskRush;};
+	if (_wpType == "HUNT") exitWith {[_group] call lambs_wp_fnc_taskHunt;};
+	if (_wpType == "CREEP") exitWith {[_group] call lambs_wp_fnc_taskCreep;};
+	if (_wpType == "ARTREG") exitWith {[_group] call lambs_wp_fnc_taskArtilleryRegister;};
+
+
+
 };
 
 // Translate the special types.
