@@ -26,7 +26,7 @@ class RHNET_ab_moduleAP_F: Module_F {
 			displayName = "Minimum players alive";
 			tooltip = "How many playable units there must be alive for this actionpoint to activate (0: no limit).";
 			typeName = "NUMBER";
-			defaultValue = "1";
+			defaultValue = "0";
 			control = "EditShort";
 		};
 
@@ -35,7 +35,7 @@ class RHNET_ab_moduleAP_F: Module_F {
 			displayName = "Maximum units alive";
 			tooltip = "This actionpoint will not activate if there are more units alive than allowed (-1: no limit).";
 			typeName = "NUMBER";
-			defaultValue = "128";
+			defaultValue = "-1";
 			control = "EditShort";
 		};
 
